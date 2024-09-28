@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -12,7 +10,7 @@ function App() {
     if(counter < 20) {
       setCounter(counter + 1)
     } else {
-      console.log("counter can't go more than 20");
+      alert("counter can't go more than 20");
     }
   }
 
@@ -20,7 +18,7 @@ function App() {
     if(counter > 0) {
       setCounter(counter - 1)
     } else {
-      console.log("counter can't go less than 0");
+      alert("counter can't go less than 0");
     }
   }
 
